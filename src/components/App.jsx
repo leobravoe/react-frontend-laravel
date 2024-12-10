@@ -16,7 +16,7 @@ function App() {
     return (
         <div>
             <h1>{message}</h1>
-            <button className='btn btn-primary'>Teste</button>
+            <button className='btn btn-primary'>Teste git</button>
             <Button variant="primary">Teste2</Button>
         </div>
     );
