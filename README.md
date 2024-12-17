@@ -1,19 +1,27 @@
-Comandos para configurar o projeto:
+# Comandos para configurar o projeto:
 
-cd documents # Navegar para o diretório onde o projeto será configurado
+###### Navegar para o diretório onde o projeto será configurado
+cd documents
 
-git clone https://github.com/leobravoe/react-frontend-laravel.git # Clonar o repositório do projeto do GitHub para a máquina local
+###### Clonar o repositório do projeto do GitHub para a máquina local
+git clone https://github.com/leobravoe/react-frontend-laravel.git
 
-cd react-frontend-laravel # Acessar o diretório do projeto recém-clonado
+###### Acessar o diretório do projeto recém-clonado
+cd react-frontend-laravel
 
-npm update # Atualizar as dependências do projeto usando o npm
+###### Atualizar as dependências do projeto usando o npm
+npm update
 
-npm run dev # Colocar o projeto em execução
+###### Colocar o projeto em execução
+npm run dev
 
-Comandos caso ja tenha o projeto:
+# Comandos caso ja tenha o projeto:
 
-git reset --hard # Reverter todas as alterações feitas no repositório local para o último commit
+###### Reverter todas as alterações feitas no repositório local para o último commit
+git reset --hard
 
-git clean -fd # Remover arquivos ou diretórios não rastreados pelo Git
+###### Remover arquivos ou diretórios não rastreados pelo Git
+git clean -fd
 
-git pull # Obter as últimas atualizações do repositório remoto e aplicá-las ao local
+###### Obter as últimas atualizações do repositório remoto e aplicá-las ao local
+git pull
