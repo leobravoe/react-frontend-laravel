@@ -2,6 +2,9 @@ import PedidosLista from "../components/PedidoProdutosAdmin/PedidosLista/Pedidos
 import PedidoSelecionado from "../components/PedidoProdutosAdmin/PedidoSelecionado/PedidoSelecionado"
 import PedidoProdutos from "../components/PedidoProdutosAdmin/PedidoProdutos/PedidoProdutos"
 import PedidoTotal from "../components/PedidoProdutosAdmin/PedidoTotal/PedidoTotal"
+import PedidoProdutoAdd from "../components/PedidoProdutosAdmin/PedidoProdutoAdd/PedidoProdutoAdd";
+import PedidoEndereco from "../components/PedidoProdutosAdmin/PedidoEndereco/PedidoEndereco";
+import PedidoEstadoAcao from "../components/PedidoProdutosAdmin/PedidoEstadoAcao/PedidoEstadoAcao";
 
 const PedidoProdutosAdmin = () => {
     return (
@@ -15,7 +18,14 @@ const PedidoProdutosAdmin = () => {
                 <PedidoProdutos />
                 <PedidoTotal />
             </div>
-            <div className="col-3">Direita</div>
+            <div className="col-3">
+                <PedidoProdutoAdd />
+                <PedidoEndereco />
+                <PedidoEstadoAcao />
+                <PedidoEstadoAcao />
+                <PedidoEstadoAcao />
+                <PedidoEstadoAcao />
+            </div>
         </div>
     )
 }
