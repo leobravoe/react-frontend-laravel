@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import { Button } from 'react-bootstrap';
+import PedidoProdutosAdmin from '../pages/PedidoProdutosAdmin'
 
 function App() {
     const [message, setMessage] = useState('teste');
@@ -14,12 +14,10 @@ function App() {
         runUseEffect();
     }, []);
     return (
-        <div>
+        <>
             <h1>{message}</h1>
-            <button className='btn btn-primary'>Teste</button>
-            <Button variant="primary">Teste2</Button>
-            <Button variant="primary">Teste3</Button>
-        </div>
+            <PedidoProdutosAdmin />
+        </>
     );
 }
 export default App
