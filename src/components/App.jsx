@@ -18,6 +18,7 @@ function App() {
             <h1>{message}</h1>
             <button className='btn btn-primary'>Teste</button>
             <Button variant="primary">Teste2</Button>
+            <Button variant="primary">Teste3</Button>
         </div>
     );
 }
