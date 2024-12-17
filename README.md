@@ -1,10 +1,10 @@
 # Comandos para configurar o projeto:
 
 ###### Navegar para o diretório onde o projeto será configurado
-cd documents
+```cd documents```
 
 ###### Clonar o repositório do projeto do GitHub para a máquina local
-git clone https://github.com/leobravoe/react-frontend-laravel.git
+`git clone https://github.com/leobravoe/react-frontend-laravel.git`
 
 ###### Acessar o diretório do projeto recém-clonado
 cd react-frontend-laravel
