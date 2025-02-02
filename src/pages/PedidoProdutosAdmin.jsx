@@ -10,7 +10,7 @@ const PedidoProdutosAdmin = () => {
     return (
         <div className="row">
             <div className="col-3">
-                <button className="btn btn-primary">Voltar</button>
+                <button className="btn btn-primary w-100">Voltar</button>
                 <PedidosLista />
             </div>
             <div className="col-6">
